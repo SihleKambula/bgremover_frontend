@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+}
+.navbar {
+  padding: 15px 20px;
+}
+
+.navbar div a {
+  font-size: 1rem;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: rgb(58, 120, 255);
+  border: 2px solid rgb(58, 120, 255);
+  border-radius: 5px;
+  padding: 10px 10px;
+}
+.image_section {
+  width: 600px;
+  margin: 20px auto;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
+.tabs {
+  display: flex;
+}
+.tabs p {
+  margin-right: 10px;
+}
+.tabs .selected {
+  font-weight: 600;
+  color: rgb(58, 120, 255);
+  border-bottom: 3px solid rgb(58, 120, 255);
+  padding-bottom: 3px;
+}
+
+.tabs p:hover {
+  color: rgb(58, 120, 255);
+  cursor: pointer;
+}
+.image_section div img {
+  width: 100%;
+}
+
+.download_btn {
+  background-color: rgb(58, 120, 255);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
