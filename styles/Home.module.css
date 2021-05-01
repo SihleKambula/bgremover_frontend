@@ -39,3 +39,15 @@
     width: 20px;
     margin: 0 2px;
 }
+
+.images{
+    width: 800px;
+    margin: 60px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.images div img{
+    width: 100%;
+}

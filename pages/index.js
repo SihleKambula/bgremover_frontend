@@ -30,6 +30,15 @@ const Index = () => {
             <p>{errorMsg}</p>
           </div>
         )}
+
+        <div className={styles.images}>
+          <div>
+            <img src='mywolf.png' alt='white wolf' />
+          </div>
+          <div>
+            <img src='white_wolf.jpg' alt='while wolf with background' />
+          </div>
+        </div>
       </main>
     </>
   );
